@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/enterUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_username_employee_id"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/enterFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter First Name"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/enterLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Last Name"
+        android:textSize="12dp"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+    <EditText
+        android:id="@+id/enterMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Mobile no."
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:layout_marginEnd="8dp"
+        android:padding="12dp"
+        android:layout_marginRight="8dp"
+        tools:ignore="Autofill" />
+<!--    <EditText-->
+<!--        android:id="@+id/enterAddress"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter Address"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:textSize="12sp"-->
+<!--        android:maxLines="3"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:padding="12dp"-->
+<!--        android:layout_marginRight="8dp"-->
+<!--        tools:ignore="Autofill" />-->
+</LinearLayout>

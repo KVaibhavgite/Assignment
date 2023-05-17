@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="add_member">Add Member</string>
+    <string name="enter_username_employee_id">Enter Username/Employee id</string>
+    <string name="add_member_button_for_inserting_all_details_of_employee_after_enter_all_details_thank_you">ADD MEMBER button for inserting all details of Employee. After enter all details,Thank you!!!!</string>
+</resources>
